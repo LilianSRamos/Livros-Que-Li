@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Notable&family=Pompiere&display=swap'););
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Pompiere&display=swap');
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(249, 238, 187);
+}
+h1 {
+    color: rgb(50, 44, 1);
+    font-family: cinzel ecorative, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/vetores-premium/padrao-sem-emenda-com-livros-de-papel-biblioteca-domestica-pilhas-de-livros-oculos-em-estilo-doodle-ilustracao-desenhada-a-mao_192280-123.jpg?semt=ais_hybrid&w=740);
+    padding: 100px 40px;
+}
+h2{
+    color: rgb(74, 68, 23);
+    font-family: notable, sans-serif;
+    font-size: 60px;
+}
+p{
+    font-family: pompiere, sans-serif;
+    background-color: rgb(237, 232, 186);
+    padding: 20px;
+    color: rgb(50, 44, 1);
+    font-size: 25px;
+    font-weight: bold;
+}
+h3 {
+    color: rgb(100, 93, 17);
+    font-family: notable, sans-serif;
+    font-size: 50px;
+}
+nav {
+    font-family: pompiere, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(100, 93, 17);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.scrolled {
+    background: rgb(194, 185, 90);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav ul li a {
+    color: rgb(50, 44, 1);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
